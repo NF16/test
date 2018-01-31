@@ -1,5 +1,5 @@
 1334
-
+//1234
 ﻿安装完git后需要设置(配置文件存在于C:\Users\kturr\.gitconfig) 
 git config --global user.name "账号"
 git config --global user.email "邮箱"
