@@ -1,0 +1,64 @@
+2017/11/14 10:30:29.056: Start Connect (Host: 223.197.47.114:8080)... 
+2017/11/14 10:30:29.058: TServer Login Status: 1 
+2017/11/14 10:30:29.140: TServer Login Status: 2 
+2017/11/14 10:30:29.152: TServer Login Status: 4 
+2017/11/14 10:30:29.160: Logging in ... 
+2017/11/14 10:30:29.198: PServer Login Status: HostId#83, Stat=11 
+2017/11/14 10:30:29.198: PServer Login Status: HostId#87, Stat=11 
+2017/11/14 10:30:29.199: PServer Login Status: HostId#88, Stat=11 
+2017/11/14 10:30:29.199: TServer Login Status: 5 
+2017/11/14 10:30:29.276: Login OK ! 
+2017/11/14 10:30:29.277: Account OK! 
+2017/11/14 10:30:29.278: Load Data End: acc:, mask:128 
+2017/11/14 10:30:29.279: Load Data End: acc:9981, mask:64 
+2017/11/14 10:30:29.280: Load Data End: acc:9981, mask:2 
+2017/11/14 10:30:29.280: Load Data End: acc:9981, mask:4 
+2017/11/14 10:30:29.280: Load Data End: acc:9981, mask:8 
+2017/11/14 10:30:29.431: PServer Login Status: HostId#83, Stat=1 
+2017/11/14 10:30:29.435: PServer Login Status: HostId#87, Stat=1 
+2017/11/14 10:30:29.436: PServer Login Status: HostId#88, Stat=1 
+2017/11/14 10:30:29.436: Load Data Reply: acc:9981, mask:256, return:0 
+2017/11/14 10:30:30.491: PServer Login Status: HostId#83, Stat=0 
+2017/11/14 10:30:30.500: PServer Login Status: HostId#88, Stat=0 
+2017/11/14 10:30:30.502: PServer Login Status: HostId#87, Stat=0 
+2017/11/14 10:30:30.813: PServer Login Status: HostId#83, Stat=1 
+2017/11/14 10:30:30.814: PServer Login Status: HostId#87, Stat=1 
+2017/11/14 10:30:30.815: PServer Login Status: HostId#88, Stat=1 
+2017/11/14 10:30:30.850: PServer Login Status: HostId#83, Stat=4 
+2017/11/14 10:30:30.878: PServer Login Status: HostId#87, Stat=4 
+2017/11/14 10:30:30.878: PServer Login Status: HostId#88, Stat=4 
+2017/11/14 10:30:31.143: PServer Login Status: HostId#87, Stat=5 
+2017/11/14 10:30:31.145: PServer Login Status: HostId#83, Stat=5 
+2017/11/14 10:30:31.361: PServer Login Status: HostId#88, Stat=5 
+2017/11/14 14:36:58.566: Start Connect (Host: 223.197.47.114:8080)... 
+2017/11/14 14:36:58.567: TServer Login Status: 1 
+2017/11/14 14:36:58.650: TServer Login Status: 2 
+2017/11/14 14:36:58.662: TServer Login Status: 4 
+2017/11/14 14:36:58.668: Logging in ... 
+2017/11/14 14:36:58.683: PServer Login Status: HostId#83, Stat=11 
+2017/11/14 14:36:58.684: PServer Login Status: HostId#87, Stat=11 
+2017/11/14 14:36:58.685: PServer Login Status: HostId#88, Stat=11 
+2017/11/14 14:36:58.685: TServer Login Status: 5 
+2017/11/14 14:36:58.763: Login OK ! 
+2017/11/14 14:36:58.764: Account OK! 
+2017/11/14 14:36:58.765: Load Data End: acc:, mask:128 
+2017/11/14 14:36:58.766: Load Data End: acc:9981, mask:64 
+2017/11/14 14:36:58.766: Load Data End: acc:9981, mask:2 
+2017/11/14 14:36:58.767: Load Data End: acc:9981, mask:4 
+2017/11/14 14:36:58.767: Load Data End: acc:9981, mask:8 
+2017/11/14 14:36:58.946: PServer Login Status: HostId#83, Stat=1 
+2017/11/14 14:36:58.947: PServer Login Status: HostId#87, Stat=1 
+2017/11/14 14:36:58.948: PServer Login Status: HostId#88, Stat=1 
+2017/11/14 14:36:58.948: Load Data Reply: acc:9981, mask:256, return:0 
+2017/11/14 14:36:59.998: PServer Login Status: HostId#87, Stat=0 
+2017/11/14 14:36:59.999: PServer Login Status: HostId#88, Stat=0 
+2017/11/14 14:37:00.003: PServer Login Status: HostId#83, Stat=0 
+2017/11/14 14:37:00.327: PServer Login Status: HostId#83, Stat=1 
+2017/11/14 14:37:00.328: PServer Login Status: HostId#87, Stat=1 
+2017/11/14 14:37:00.329: PServer Login Status: HostId#88, Stat=1 
+2017/11/14 14:37:00.355: PServer Login Status: HostId#83, Stat=4 
+2017/11/14 14:37:00.357: PServer Login Status: HostId#87, Stat=4 
+2017/11/14 14:37:00.357: PServer Login Status: HostId#88, Stat=4 
+2017/11/14 14:37:00.585: PServer Login Status: HostId#83, Stat=5 
+2017/11/14 14:37:00.587: PServer Login Status: HostId#87, Stat=5 
+2017/11/14 14:37:00.589: PServer Login Status: HostId#88, Stat=5 
