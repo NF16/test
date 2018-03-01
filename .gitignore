@@ -241,5 +241,6 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
+#¹ıÂËÎÄ¼ş¼ĞDebug,Release,obj
 ConsoleApplication_Nlog/bin
 ConsoleApplication_Nlog/obj
