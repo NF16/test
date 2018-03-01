@@ -240,3 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+ConsoleApplication_Nlog/bin
+ConsoleApplication_Nlog/obj
