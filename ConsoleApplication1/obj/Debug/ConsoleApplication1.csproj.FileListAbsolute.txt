@@ -16,3 +16,6 @@ C:\Users\NF\Desktop\TestCode123\ConsoleApplication1\bin\Debug\ConsoleApplication
 C:\Users\NF\Desktop\TestCode123\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 C:\Users\NF\Desktop\TestCode123\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\NF\Desktop\TestCode123\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\NF\Downloads\D\Git\GitHub\test\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\NF\Downloads\D\Git\GitHub\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\NF\Downloads\D\Git\GitHub\test\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
