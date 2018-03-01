@@ -12,7 +12,7 @@ namespace ConsoleApplication_Nlog
         {
             HistoryLog.SentMail("1");
 
-            HistoryLog.SendMail2("2");
+            //HistoryLog.SendMail2("2");
             //HistoryLog.SentMail("1");
             //HistoryLog.SendMail2("2");
             Console.ReadKey();
