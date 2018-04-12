@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConsoleApplication1
@@ -10,6 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            DateTimeTest();
             //DateTime dtNow = Convert.ToDateTime("2017-4-13");
             DateTime dtNow = DateTime.Now;
             for (int i=0; i<12;i++)
@@ -62,9 +64,17 @@ namespace ConsoleApplication1
             return datetime.AddDays(1 - datetime.Day).AddDays(-1);
         }
 
+        public static void DateTimeTest()
+        {
+            DateTime dt = DateTime.Now;
+            Thread.Sleep(70000);
+            Console.WriteLine((DateTime.Now - dt).Seconds.ToString());
+        }
 
-        
     }
+
+
+   
     [Author("Oscar",version =1.1)]
     class OldClass
     {
