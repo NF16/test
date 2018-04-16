@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationJson", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationLock", "ConsoleApplicationLock\ConsoleApplicationLock.csproj", "{C7D1F5E1-9471-4CE0-AC05-BEDF3D78525D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "委托事件", "委托事件", "{071F904E-7BFC-496D-90E6-9EE8AC8DDC42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication6", "ConsoleApplication6\ConsoleApplication6.csproj", "{6DF6A2D0-C13C-4D10-AB67-BFAA78B596B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,8 +67,15 @@ Global
 		{C7D1F5E1-9471-4CE0-AC05-BEDF3D78525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7D1F5E1-9471-4CE0-AC05-BEDF3D78525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7D1F5E1-9471-4CE0-AC05-BEDF3D78525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF6A2D0-C13C-4D10-AB67-BFAA78B596B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF6A2D0-C13C-4D10-AB67-BFAA78B596B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF6A2D0-C13C-4D10-AB67-BFAA78B596B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF6A2D0-C13C-4D10-AB67-BFAA78B596B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DF6A2D0-C13C-4D10-AB67-BFAA78B596B9} = {071F904E-7BFC-496D-90E6-9EE8AC8DDC42}
 	EndGlobalSection
 EndGlobal
