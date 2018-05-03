@@ -13,48 +13,48 @@ namespace ConsoleApplication1
         {
             DateTimeTest();
             //DateTime dtNow = Convert.ToDateTime("2017-4-13");
-            DateTime dtNow = DateTime.Now;
-            for (int i=0; i<12;i++)
-            {
-                DateTime dtP = LastDayOfPrdviousMonth(dtNow);
-                Console.WriteLine(dtP.ToShortDateString());
-                //==================================
-                //==================================
-                //==================================
+            //DateTime dtNow = DateTime.Now;
+            //for (int i=0; i<12;i++)
+            //{
+            //    DateTime dtP = LastDayOfPrdviousMonth(dtNow);
+            //    Console.WriteLine(dtP.ToShortDateString());
+            //    //==================================
+            //    //==================================
+            //    //==================================
 
-                if (dtP.DayOfWeek == DayOfWeek.Saturday)
-                {
-                    dtP = dtP.AddDays(-2);
-                }
-                else if (dtP.DayOfWeek == DayOfWeek.Sunday)
-                {
-                    dtP = dtP.AddDays(-3);
-                }
-                else if (dtP.DayOfWeek == DayOfWeek.Monday)
-                {
-                    dtP = dtP.AddDays(-4);
-                }
-                else
-                {
-                    dtP = dtP.AddDays(-1);
-                }
-
-
-
-                Console.WriteLine(dtP.ToShortDateString() + "[" + dtP.DayOfWeek.ToString() + "]"+ Convert.ToInt32( (dtNow- dtP).TotalDays));
-                dtNow=dtNow.AddMonths(1);
+            //    if (dtP.DayOfWeek == DayOfWeek.Saturday)
+            //    {
+            //        dtP = dtP.AddDays(-2);
+            //    }
+            //    else if (dtP.DayOfWeek == DayOfWeek.Sunday)
+            //    {
+            //        dtP = dtP.AddDays(-3);
+            //    }
+            //    else if (dtP.DayOfWeek == DayOfWeek.Monday)
+            //    {
+            //        dtP = dtP.AddDays(-4);
+            //    }
+            //    else
+            //    {
+            //        dtP = dtP.AddDays(-1);
+            //    }
 
 
-            }
-            DateTime FEF = new DateTime();
-            if(FEF==null)
-            {
-                Console.WriteLine("nULL");
-            }
-            else
-            {
-                Console.WriteLine(FEF.ToLongDateString());
-            }
+
+            //    Console.WriteLine(dtP.ToShortDateString() + "[" + dtP.DayOfWeek.ToString() + "]"+ Convert.ToInt32( (dtNow- dtP).TotalDays));
+            //    dtNow=dtNow.AddMonths(1);
+
+
+            //}
+            //DateTime FEF = new DateTime();
+            //if(FEF==null)
+            //{
+            //    Console.WriteLine("nULL");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(FEF.ToLongDateString());
+            //}
 
             Console.ReadKey();
         }
@@ -67,8 +67,7 @@ namespace ConsoleApplication1
         public static void DateTimeTest()
         {
             DateTime dt = DateTime.Now;
-            Thread.Sleep(70000);
-            Console.WriteLine((DateTime.Now - dt).Seconds.ToString());
+            Console.WriteLine(dt.AddMinutes(60).ToString());
         }
 
     }
