@@ -11,7 +11,8 @@ namespace ConsoleApplicationYeild
     {
         static void Main(string[] args)
         {
-            A a = new A();
+            //tet
+            A a = new A();   
             foreach (int i in a)
             {
                 Console.WriteLine(i);
