@@ -11,7 +11,32 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            DateTimeTest();
+            DictionaryTest();
+            Console.ReadKey();
+        }
+
+        public static DateTime LastDayOfPrdviousMonth(DateTime datetime)
+        {
+            return datetime.AddDays(1 - datetime.Day).AddDays(-1);
+        }
+
+        public static void DateTimeTest()
+        {
+            Console.WriteLine(130/60);
+            DateTimeTest td = new ConsoleApplication1.DateTimeTest();
+            DateTime dt = DateTime.Now;
+            Console.WriteLine(dt.AddSeconds(120).ToString());
+        }
+
+        public static void DateTimeTest1()
+        {
+            DateTime dt = DateTime.Now;
+            Thread.Sleep(5000);
+            Console.WriteLine((DateTime.Now-dt).ToString());
+        }
+
+        public static void DateTimeTest3()
+        {
             //DateTime dtNow = Convert.ToDateTime("2017-4-13");
             //DateTime dtNow = DateTime.Now;
             //for (int i=0; i<12;i++)
@@ -39,37 +64,27 @@ namespace ConsoleApplication1
             //        dtP = dtP.AddDays(-1);
             //    }
 
-
-
             //    Console.WriteLine(dtP.ToShortDateString() + "[" + dtP.DayOfWeek.ToString() + "]"+ Convert.ToInt32( (dtNow- dtP).TotalDays));
             //    dtNow=dtNow.AddMonths(1);
 
 
             //}
-            //DateTime FEF = new DateTime();
-            //if(FEF==null)
-            //{
-            //    Console.WriteLine("nULL");
-            //}
-            //else
-            //{
-            //    Console.WriteLine(FEF.ToLongDateString());
-            //}
-
-            Console.ReadKey();
         }
 
-        public static DateTime LastDayOfPrdviousMonth(DateTime datetime)
+        public static void DictionaryTest()
         {
-            return datetime.AddDays(1 - datetime.Day).AddDays(-1);
+            Dictionary<int, int> dicTest = new Dictionary<int, int>();
+            dicTest.Add(4, 40);
+            dicTest.Add(2, 20);
+            dicTest.Add(3, 30);
+            Console.WriteLine(dicTest.First().Value);
         }
 
-        public static void DateTimeTest()
-        {
-            DateTime dt = DateTime.Now;
-            Console.WriteLine(dt.AddMinutes(60).ToString());
-        }
+    }
 
+    public class DateTimeTest
+    {
+        public DateTime dt { get; set; }
     }
 
 
